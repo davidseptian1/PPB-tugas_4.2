@@ -10,7 +10,7 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter text here" />
+        android:hint="Input disini" />
 
     <Button
         android:id="@+id/textButton"
@@ -36,7 +36,8 @@
         android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center">
 
         <RadioButton
             android:id="@+id/radioButton1"
@@ -61,7 +62,8 @@
         android:id="@+id/radioButtonsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check Selection" />
+        android:text="Check Selection"
+        android:layout_gravity="center"/>
 
     <!-- Spinner -->
     <Spinner
